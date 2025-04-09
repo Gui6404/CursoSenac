@@ -1,0 +1,56 @@
+#header {
+    background-color: rgb(250, 105, 9);
+    height: 130px;
+    padding: 20px 20px 5px 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: column;
+
+}
+
+#foto1 {
+    width: 500px;
+
+}
+
+#foto2 {
+    width: 250px;
+
+}
+
+.titulo{
+    color: rgb(250, 105, 9);
+    margin-bottom: 40px;
+    flex-direction: column;
+}
+
+.youtube{
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+
+#mapaLA{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+    flex-direction: flex;
+}
