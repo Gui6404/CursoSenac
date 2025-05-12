@@ -12,15 +12,12 @@ nivel = int(input("Escolha entre as dificuldades \nFácil (digite 1) \nMédio (d
 
 if nivel == 1:
     jogadas = 30
-    perda_serro = 10
     print("Você terá {} jogadas".format(jogadas))
 elif nivel == 2:
     jogadas = 10
-    perda_serro = 20
     print("Você terá {} jogadas".format(jogadas))
 elif nivel == 3:
     jogadas = 5
-    perda_serro = 50
     print("Você terá {} jogadas".format(jogadas))
 else:
     print("Escolha corretamente sua dificuldade de jogo")
